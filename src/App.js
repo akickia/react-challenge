@@ -1,7 +1,8 @@
 import Home from "./components/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Button from "./components/Button";
+import About from "./components/About";
+import Contact from "./components/Contact";
 
 
 
@@ -10,10 +11,13 @@ function App() {
     <div className="wrap">
       <Header/>
       <div className="container">
-      
       <Home />
-      <Button />
-      
+      </div>
+      <div className="container">
+      <About />
+      </div>
+      <div className="container">
+      <Contact />
       </div>
       <Footer />
     </div>

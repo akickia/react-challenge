@@ -18,7 +18,11 @@ h1 {
 
 .container {
   text-align: center;
-  margin: 3%;
+  padding: 3%;
+  border: 1px black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .header, .footer {
@@ -29,15 +33,44 @@ h1 {
   height: 120px;
 }
 
+a {
+  text-decoration: none;
+  color: green;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2%
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 2px green solid;
+  padding: 4%;
+  align-self: center;
+  height: 250px;
+  width: 400px;
+  
+}
+
 button {
   background-color: burlywood;
+  align-self: center;
   font-size: medium;
   font-weight: bold;
-  padding: 0.5% 1%;
+  padding: 2%;
   color: green;
   border-color: green;
   border-radius: 10px;
   box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+button:hover {
+  transform: scale(1.2);
+  transition: 0.3s ease-in;
 }
 
 .content {
@@ -45,6 +78,11 @@ button {
   width: 100%;
   justify-content: space-around;
   align-items: center;
+}
+
+.img {
+  max-width: 100%;
+  width: 80%;
 }
 
 .card {

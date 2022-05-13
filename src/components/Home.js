@@ -1,4 +1,5 @@
 import Image from './binary.png';
+import Button from './Button';
 
 const Home = () => {
   return (
@@ -16,9 +17,7 @@ const Home = () => {
         </div>
         <div className="card">
           <h3>This is the second section</h3>
-          <p>Odit, nemo voluptatum temporibus veritatis iusto soluta ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi et tenetur quia quam voluptates 
-            laboriosam libero quod id numquam non ipsam, dolorem quaerat aut. Maxime voluptate cum tenetur. Nulla, ducimus!</p>
-            <img src={Image} alt="binary" />
+            <img className="img" src={Image} alt="binary" />
         </div>
         <div className="card">
           <h3>This is the third section</h3>
@@ -30,6 +29,7 @@ const Home = () => {
             Ipsum eos eius eum inventore!</p>
         </div>
       </div>
+      <Button name="Click me!" link="https://akickia.netlify.app/" ></Button>
     
   </>
   )

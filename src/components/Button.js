@@ -1,8 +1,8 @@
-const Button = () => {
-  return (
+const Button = (props) => {
+  return ( 
     <>
-    <button href="https://akickia.netlify.app/" target="_blank">Click me!</button>
-  </>
+      <button><a href={props.link} target="_blank" rel="noreferrer">{props.name}</a></button>
+      </>
   )
 }
 

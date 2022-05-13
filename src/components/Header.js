@@ -3,9 +3,9 @@ const Header = () => {
     <>
     <header className="header">
       
-      <h3>This is some text</h3>
+      <h3>About</h3>
       <h1>ReactChallenge!</h1>
-      <h3>This is some other text</h3>
+      <h3>Contact</h3>
     </header>
   </>
   )
