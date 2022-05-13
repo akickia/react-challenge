@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  color: green;
+}
+
+.container {
+  text-align: center;
+  margin: 3%;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: burlywood;
+  height: 120px;
+}
+
+button {
+  background-color: burlywood;
+  font-size: medium;
+  font-weight: bold;
+  padding: 0.5% 1%;
+  color: green;
+  border-color: green;
+  border-radius: 10px;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  max-width: 30%;
+}
+
+@media screen and (max-width: 650px) {
+  .card {
+    max-width: 80%;
+  }
+  .content {
+    flex-direction: column;
+  }
+}
