@@ -1,8 +1,11 @@
-const Button = (props) => {
+const Button = ({link, name}) => {
   return ( 
     <>
-      <button><a href={props.link} target="_blank" rel="noreferrer">{props.name}</a></button>
-      </>
+      <button className="btn" style={{
+      opacity: "0.7", 
+      }}>
+        <a href={link}>{name}</a></button>
+    </>
   )
 }
 

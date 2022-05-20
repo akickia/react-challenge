@@ -1,11 +1,14 @@
+import {Link} from "react-router-dom";
+
 const Header = () => {
   return (
     <>
     <header className="header">
-      
-      <h3>About</h3>
-      <h1>ReactChallenge!</h1>
-      <h3>Contact</h3>
+      <div className="container">
+      <h3><Link to="/about">About</Link></h3>
+      <div className="homelink" style={{textAlign: "center", lineHeight: 0.5}}><h1><Link to="/">Kicki Lindstrand</Link></h1><p>Front end developer</p></div>
+      <h3><Link to="/contact">Contact</Link></h3>
+      </div>
     </header>
   </>
   )
