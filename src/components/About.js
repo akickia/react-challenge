@@ -3,8 +3,35 @@ import me2Img from "../images/jag2.jpg";
 import ReadMore from "./ReadMore";
 import ReadMore2 from "./Readmore2";
 import ReadMore3 from "./Readmore3";
+import { useState } from "react";
+import List from "./List";
 
 const About = () => {
+  const myInterest = [
+    {interest: "My family"},
+    {interest: "Equality"},
+    {interest: "Jigsaw-puzzels"},
+    {interest: "Walks in nature"},
+    {interest: "Learning new things"},
+    {interest: "Music"},
+    {interest: "Strawberries"},
+    {interest: "Spring"},
+    {interest: "Coffee!"},
+  ]
+
+  const noInterest = [
+    {noInt: "Injustice"},
+    {noInt: "Mushrooms (eating them - looking for them in the forest is nice!)"},
+    {noInt: "Intolerance"},
+    {noInt: "Winter"},
+    {noInt: "Spiders"},
+    {noInt: "Phone calls"},
+    {noInt: "Wasps"},
+  ]
+  const [firstList, SetFirstList] = useState(myInterest)
+  const [secondList, SetSecondList] = useState(noInterest)
+
+  
   return (
     <div className="container">
       <h1>About me</h1>
@@ -26,27 +53,23 @@ const About = () => {
         <div className="card fun-fact">
           <h2>I like </h2>
           <ul>
-            <li>My family</li>
-            <li>Equality</li>
-            <li>Jigsaw-puzzels</li>            
-            <li>Walks in nature</li>
-            <li>Learning new things</li>
-            <li>Music</li>
-            <li>Strawberries</li>
-            <li>Spring</li>
-            <li>Coffee!</li>
+        {firstList.map((n, i) => {
+          return (
+            <List key={i} interest={n.interest} />
+          )
+        }) 
+      }
           </ul>
         </div>
         <div className="card fun-fact">
           <h2>I don't like </h2>
           <ul>
-            <li>Injustice</li>
-            <li>Mushrooms (eating them - looking for them in the forest is nice!)</li>
-            <li>Intolerance</li>
-            <li>Winter</li>
-            <li>Spiders</li>
-            <li>Phone calls</li>
-            <li>Wasps</li>
+          {secondList.map((n, i) => {
+          return (
+            <List key={i} noInt={n.noInt} />
+          )
+        }) 
+      }
           </ul>
         </div>
       </div>

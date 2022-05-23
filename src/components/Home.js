@@ -14,7 +14,7 @@ const Home = () => {
     
       <img className="img-small woman" src={strongWoman} alt="strong woman" />
       
-      <div class="card section__edu">
+      <div className="card section__edu">
         <div>
           <h2>Education</h2>
           <p>I'm currently studying <b>IT:Tech for women</b> at Sundsgårdens folkhögskola. This is an intensive course for becoming a frontend developer working with HTML, CSS, JavaScript, agile working methods and libraries like Bootstrap and React.</p>
@@ -22,9 +22,6 @@ const Home = () => {
           <ExtButton name="IT:Tech for women" link="https://sundsgarden.se/utbildningar-kurser/langa-kurser/yrkesutbildningar/it-tech-for-women/"></ExtButton>
         </div>
       </div>
-      
-      
-    
   </div>
   )
 }

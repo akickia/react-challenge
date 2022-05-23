@@ -1,26 +1,21 @@
 import ExtButton from "./ExternalButton"
 import ContImg from "../images/silhouette.png"
-
+import Form2 from "./Form2"
 
 
 const Contact = () => {
-  
+
+
   return (
     
     <div className="container">
-        <h1>Contact</h1>
+        <h1 id="contactStart">Contact</h1>
         <img className="img-small" src={ContImg} alt="man and woman working" />
         <div className="card section__contact" id="contact-form">
           <h4><u>To get in touch with me: </u></h4>
           <div>
             <p>Send me an email..</p>
-            <form name="contact-form">
-              <input type="text" id="your-name" name="name" placeholder="Your Name" required />
-              <input type="email" id="email" name="email" placeholder="Your Email" required />
-              <input type="text" id="your-subject" name="subject" placeholder="Subject" />
-              <input name="message" id="message" cols="30" rows="6" placeholder="Your message" required></input>
-              <button className="form-btn btn" type="submit">SEND MESSAGE</button>              
-            </form>
+            <Form2 />
           </div>
           <div className="contact-social">
             <p>..or check me out at:</p>
