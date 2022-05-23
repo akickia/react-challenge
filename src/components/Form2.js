@@ -42,10 +42,10 @@ const Form2 = () => {
   {userInput.map((user, i) => {
     const {YourName, Mail, message} = user;
     return (
-      <div key={i}>
-      <p>{YourName}</p>
-      <p>{Mail}</p>
-      <p>{message}</p>
+      <div className="submitMessage" key={i}>
+      <p>Thank you, {YourName} for your message.  </p>
+      <p>I will get back to you at: {Mail}</p>
+      <p>Your message: {message}</p>
       </div>)
   })}
   </>

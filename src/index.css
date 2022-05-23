@@ -268,7 +268,20 @@ input {
 }
 
 .form-btn {
-  margin-top: 15px
+  margin: 15px 0
+ }
+
+.submitMessage {
+  width: 350px;
+  height: 150px;
+  overflow: auto;
+  font-size: small;
+  border: 1px black solid;
+  border-radius: 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
 }
 
 
@@ -303,11 +316,6 @@ input {
   .section__facts {
     max-width: 70%;
   }
-  .section__contact {
-    height: 600px;
-    width: 300px;
-  }
-  
 }
 
 
@@ -379,5 +387,8 @@ input {
   /*Contact*/
   input {
     width: 80%;
+  }
+  .section__contact {
+    height: 800px;
   }
 }
