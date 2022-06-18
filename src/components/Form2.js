@@ -36,7 +36,7 @@ const Form2 = () => {
   return (
   <>
 
-  <form onSubmit={handleSubmit}>
+  <form name="contact" method="POST" onSubmit={handleSubmit}>
   <input type="hidden" name="form-name" value="contact" />
     <input onChange={handleChange} type="text" id="Yourname" name="YourName" value={inputData.YourName} placeholder="Your Name" />
     <input onChange={handleChange} type="email" id="Mail" name="Mail" value={inputData.Mail} placeholder="Your Email" />
