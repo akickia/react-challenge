@@ -20,7 +20,7 @@ const SectionMe = () => {
           <div class="me-content-img">
             <img src={ImgMe} className="img img-me" alt="Kicki" />
           </div>
-          <p>I started to learn how to program in late 2021 and I'm now attending an intensive course to become a frontend developer.</p>
+          <p>I started learn how to program in late 2021 and I've recenly completed an intensive course to become a front end developer.</p>
           <Link to="/about"><Button name="Klick here for more info about me"></Button></Link>
         </div>
     </div>

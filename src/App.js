@@ -37,7 +37,7 @@ function App() {
             </button>
           )}
         >
-        THANK YOU!
+        HOW NICE TO SEE YOU!
         </Modal></div>
       <div>
         <Footer />

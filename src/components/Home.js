@@ -17,7 +17,7 @@ const Home = () => {
       <div className="card section__edu">
         <div>
           <h2>Education</h2>
-          <p>I'm currently studying <b>IT:Tech for women</b> at Sundsgårdens folkhögskola. This is an intensive course for becoming a frontend developer working with HTML, CSS, JavaScript, agile working methods and libraries like Bootstrap and React.</p>
+          <p>I've recently completed the course <b>IT:Tech for women</b> at Sundsgårdens folkhögskola. This is an intensive education for becoming a frontend developer working with HTML, CSS, JavaScript, agile working methods and libraries/frameworks like Bootstrap and React.</p>
           <p><small className="small-text">Press the button to checkout Sundgårdens webbpage in a new window.</small></p>
           <ExtButton name="IT:Tech for women" link="https://sundsgarden.se/utbildningar-kurser/langa-kurser/yrkesutbildningar/it-tech-for-women/"></ExtButton>
         </div>

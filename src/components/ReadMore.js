@@ -18,9 +18,9 @@ const ReadMore = () => {
                 expressing myself in writing. This goes mainly for my first language Swedish, but I'm actively working on my English skills. 
             </p>
             <p> Equality has always been important to me. I've worked a lot with bringing awareness about discrimination against people on the basis of for instance gender, religion, etnicity or sexual orientation. 
-                In my opinion, diversity makes us grow and I'm always open to meet new people. To make all children feel safe and seen has been the most important thing to me in my profession, but I've also taken a lot of interest and responsibility in the quality of the education. 
+                In my opinion, diversity makes us grow and I'm always open to meet new people. 
             </p>
-            <p> I've been a mentor for students from university since 2017 and in 2019 I started to mentor new colleagues in Eskilstuna in an extended introduction program together with three other experienced preschool teachers. 
+            <p> I've been a mentor for students from the University since 2017 and in 2019 I started to mentor new colleagues in Eskilstuna in an extended introduction program together with three other experienced preschool teachers. 
                 I have held lectures during the introduction and in other work-meetings about for instance group dynamics, systematic quality work and LGBTQ (HBTQ).
             </p>
             <p> I will never regret all the experience and the wonderful relationships I've been able to be a part of during my years in preeschool, but now it's time to find new roads ahead! 

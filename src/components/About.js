@@ -42,7 +42,8 @@ const About = () => {
           <p><u>Age:</u> 40 years old</p>
           <p><u>Location:</u> Eskilstuna, Sweden</p>
           <p><u>Status:</u> Married to Martin since 2016</p>
-          <p><u>Children:</u> Ronja - 12 years, Lukas - 9 years and Ebba - 5 years old</p>
+          <p><u>Children:</u> Ronja (13), Lukas (9) and Ebba (6)</p>
+          <p><u>Pets:</u> Sixten - poodle puppy born april 2022</p>
         </div>
         <div className="section__facts-img">
           <img className="img" src={me2Img} alt="Kicki" />
