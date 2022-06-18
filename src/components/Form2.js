@@ -33,7 +33,7 @@ const Form2 = () => {
   
   return (
   <>
-  <form onSubmit={handleSubmit} method="POST" data-netlify="true" data-netlify-recaptcha="true">
+  <form onSubmit={handleSubmit} netlify data-netlify-recaptcha="true">
     <input onChange={handleChange} type="text" id="Yourname" name="YourName" value={inputData.YourName} placeholder="Your Name" />
     <input onChange={handleChange} type="email" id="Mail" name="Mail" value={inputData.Mail} placeholder="Your Email" />
     <input onChange={handleChange} type="text" name="message" id="message" value={inputData.message} placeholder="Your message" />
