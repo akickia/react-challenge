@@ -15,7 +15,7 @@ const Form2 = () => {
 
   const [userInput, setUserInput] = useState([]);
     
-  const handleSubmit = (e) => {
+  const handleData = (e) => {
     e.preventDefault();
 
     const newInput = {
@@ -36,7 +36,7 @@ const Form2 = () => {
   return (
   <>
 
-  <form name="contact" method="POST" onSubmit={handleSubmit}>
+  <form name="contact" method="POST" onSubmit={handleData}>
   <input type="hidden" name="form-name" value="contact" />
     <input onChange={handleChange} type="text" id="Yourname" name="YourName" value={inputData.YourName} placeholder="Your Name" />
     <input onChange={handleChange} type="email" id="Mail" name="Mail" value={inputData.Mail} placeholder="Your Email" />
