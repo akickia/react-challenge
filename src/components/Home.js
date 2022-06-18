@@ -8,7 +8,8 @@ const Home = () => {
     <div className='container'>
       <div className="card section-welcome">
         <h1>Welcome!</h1>
-        <p>My name is Kicki Lindstrand and I'm a junior frontend developer. I love learning new things and this is my portfolio.</p>
+        <p>My name is Kicki Lindstrand and I'm a junior frontend developer. I love learning new things and this is parts of my portfolio created with React.</p>
+        <p>To visit my original portfolio - press <a href="https://akickia.netlify.app" target="_blank"><u>HERE</u></a></p>
       </div>
       <SectionMe />
     
