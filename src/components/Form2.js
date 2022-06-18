@@ -31,22 +31,18 @@ const Form2 = () => {
     })
    }
 
-   <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-   <input type="text" name="name" />
-   <input type="email" name="email" />
-   <textarea name="message"></textarea>
- </form>
+
   
   return (
   <>
 
-  <form onSubmit={handleSubmit} method="POST" >
+  <form onSubmit={handleSubmit} name="contact" data-netlify="true" method="POST" >
   <input type="hidden" name="form-name" value="contact" />
     <input onChange={handleChange} type="text" id="Yourname" name="YourName" value={inputData.YourName} placeholder="Your Name" />
     <input onChange={handleChange} type="email" id="Mail" name="Mail" value={inputData.Mail} placeholder="Your Email" />
     <input onChange={handleChange} type="text" name="message" id="message" value={inputData.message} placeholder="Your message" />
     <button className="form-btn btn" type="submit" >SEND MESSAGE</button> 
-              
+    <div data-netlify-recaptcha="true"></div>         
   </form>
   {userInput.map((user, i) => {
     const {YourName, Mail, message} = user;
