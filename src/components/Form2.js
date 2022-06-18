@@ -30,14 +30,16 @@ const Form2 = () => {
       message: "",
     })
    }
+
+   <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+   <input type="text" name="name" />
+   <input type="email" name="email" />
+   <textarea name="message"></textarea>
+ </form>
   
   return (
   <>
-   <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-      <input type="text" name="name" />
-      <input type="email" name="email" />
-      <textarea name="message"></textarea>
-    </form>
+
   <form onSubmit={handleSubmit} method="POST" >
     <input onChange={handleChange} type="text" id="Yourname" name="YourName" value={inputData.YourName} placeholder="Your Name" />
     <input onChange={handleChange} type="email" id="Mail" name="Mail" value={inputData.Mail} placeholder="Your Email" />
