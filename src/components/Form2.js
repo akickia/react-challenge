@@ -42,7 +42,7 @@ const Form2 = () => {
     <input onChange={handleChange} type="email" id="Mail" name="Mail" value={inputData.Mail} placeholder="Your Email" />
     <input onChange={handleChange} type="text" name="message" id="message" value={inputData.message} placeholder="Your message" />
     <button className="form-btn btn" type="submit" >SEND MESSAGE</button> 
-    <div data-netlify-recaptcha="true"></div>         
+         
   </form>
   {userInput.map((user, i) => {
     const {YourName, Mail, message} = user;

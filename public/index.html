@@ -27,12 +27,12 @@
     <title>React App</title>
   </head>
   <body>
-    <form name="contact" data-netlify="true" data-netlify-recaptcha="true" hidden>
+    <form name="contact" data-netlify="true" method="POST" netlify-honeypot="bot-field" hidden>
       <input type="text" name="name" />
       <input type="email" name="email" />
       <textarea name="message"></textarea>
     </form>
-    <div data-netlify-recaptcha="true"></div>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
