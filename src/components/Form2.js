@@ -44,15 +44,7 @@ const Form2 = () => {
     <button className="form-btn btn" type="submit" formMethod="POST">SEND MESSAGE</button> 
          
   </form>
-  {userInput.map((user, i) => {
-    const {YourName, Mail, message} = user;
-    return (
-      <div className="submitMessage" key={i}>
-      <p>Thank you, {YourName} for your message.  </p>
-      <p>I will get back to you at: {Mail}</p>
-      <p>Your message: {message}</p>
-      </div>)
-  })}
+  
   </>
   )
 }
